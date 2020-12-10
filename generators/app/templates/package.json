@@ -1,0 +1,17 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss src/tailwind.css -o dist/tailwind.css",
+    "watch": "postcss src/tailwind.css -o dist/tailwind.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.0"
+  }
+}

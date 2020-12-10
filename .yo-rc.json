@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Ofri Kirshen",
+      "authorEmail": "okirshen@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
